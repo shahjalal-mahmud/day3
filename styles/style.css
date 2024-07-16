@@ -276,8 +276,8 @@ footer>div>p {
     }
 
     .logo-container {
-        flex-wrap: wrap;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         margin: 20px 10px;
     }
 

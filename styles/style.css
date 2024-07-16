@@ -2,9 +2,10 @@
 /* font-family: Poppins, sans-serif; */
 
 /* Shared Styles */
-*{
+* {
     font-family: Poppins, sans-serif;
 }
+
 .display-flex {
     display: flex;
 }
@@ -13,6 +14,7 @@
     color: rgba(58, 58, 58, 1);
     font-size: 1rem;
     font-weight: 400;
+    margin-bottom: 16px;
 }
 
 .secondary-text {
@@ -25,13 +27,25 @@
     color: rgba(58, 58, 58, 1);
     font-size: 3.25rem;
     font-weight: bold;
+    margin-bottom: 16px;
 }
-
+.btn-primary{
+    background-color: rgba(224, 44, 109, 1);
+    border: none;
+    border-radius: 41px;
+    max-width: 196px;
+    max-height: 44px;
+    padding: 10px 24px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
 /* navbar styles*/
 
 .navbar {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin:20px 50px;
 }
 
 nav-list {
@@ -53,4 +67,23 @@ nav ul>li {
 nav ul>li>img {
     width: 24px;
     height: 24px;
+}
+
+/* Banner styles */
+
+.banner-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-info{
+    max-width: 582px;
+    margin-left: 50px;
+}
+
+.bg-img-container {
+    background-image: url("data:image/svg+xml,%3Csvg%20width='475'%20height='475'%20viewBox='0%200%20475%20475'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cg%20opacity='0.55'%3E%3Ccircle%20cx='237.5'%20cy='237.5'%20r='236'%20stroke='%23F1E4FF'%20stroke-width='3'/%3E%3Cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M237.5%20403.652C329.263%20403.652%20403.652%20329.263%20403.652%20237.5C403.652%20145.737%20329.263%2071.3479%20237.5%2071.3479C145.737%2071.3479%2071.3477%20145.737%2071.3477%20237.5C71.3477%20329.263%20145.737%20403.652%20237.5%20403.652ZM237.5%20335.237C291.478%20335.237%20335.236%20291.479%20335.236%20237.5C335.236%20183.522%20291.478%20139.763%20237.5%20139.763C183.521%20139.763%20139.763%20183.522%20139.763%20237.5C139.763%20291.479%20183.521%20335.237%20237.5%20335.237Z'%20fill='%23F1E4FF'/%3E%3C/g%3E%3C/svg%3E");
+    margin-right: 120px;
+}
+.bg-img-container > img{
+    width: 100%;
 }

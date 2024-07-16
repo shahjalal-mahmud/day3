@@ -241,7 +241,7 @@ footer>div>p {
 }
 
 /* Media Query for Mobile Devices */
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 576px) {
     .nav-list,
     .banner-container {
         display: grid;
